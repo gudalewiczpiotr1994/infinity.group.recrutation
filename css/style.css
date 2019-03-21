@@ -342,7 +342,6 @@ input[type=number] {
 
 .clients__quoteContainer {
     padding: 4px 0px;
-    height: 220px;
     width: calc(100% - 100px);
     overflow: hidden;
 }
@@ -563,6 +562,7 @@ footer {
     .clients__tablet {
         width: 100%;
     }
+
 }
 
 @media screen and (max-width:992px) {
@@ -596,7 +596,7 @@ footer {
     }
 
     .clients__quoteContainer {
-        height: 245px;
+        width: 100%;
     }
 
 
@@ -677,10 +677,6 @@ footer {
         right: unset;
     }
 
-    .clients__quoteContainer {
-        height: 330px;
-        width: calc(100%);
-    }
 
     .loremIpsumContainer__dotsContainer {
         display: inline-block;
@@ -713,8 +709,3 @@ footer {
     }
 }
 
-@media screen and ( max-width: 375px){
-    .clients__quoteContainer{
-        height: 420px;
-    }
-}
