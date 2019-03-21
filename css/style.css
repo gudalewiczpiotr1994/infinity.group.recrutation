@@ -160,7 +160,7 @@ input[type=number] {
 .mainPage {
     min-height: 650px;
     width: 100%;
-    background-image: url(/img/header.png);
+    background-image: url(../img/header.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -292,7 +292,7 @@ input[type=number] {
 /* Clients styles */
 
 .clients {
-    background-image: url(/img/clients_BG.png);
+    background-image: url(../img/clients_BG.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 110px 0 170px;
@@ -404,7 +404,7 @@ input[type=number] {
 
 .map {
     background-color: #f1f1f1;
-    background-image: url(/img/map.png);
+    background-image: url(../img/map.png);
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: bottom right;
