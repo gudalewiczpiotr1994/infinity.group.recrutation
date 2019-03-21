@@ -44,10 +44,12 @@ input[type=number] {
     color: white;
     outline: none;
     border: 1px solid transparent;
+    -webkit-transition: all ease-in-out .3s;
     transition: all ease-in-out .3s;
 }
 
 .buttonGreen:hover {
+    -webkit-transition: all ease-in-out .3s;
     transition: all ease-in-out .3s;
     border: 1px solid #62c017;
     background-color: transparent;
@@ -85,7 +87,8 @@ input[type=number] {
     display: inline-block;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 /* navbar styles */
@@ -112,13 +115,16 @@ input[type=number] {
     font-weight: 400;
     text-align: center;
     margin-top: 8px;
+    -webkit-transition: all ease-in-out .3s;
     transition: all ease-in-out .3s;
 }
 
 .nav-link:hover {
+    -webkit-transition: all ease-in-out .3s;
     transition: all ease-in-out .3s;
     background-color: rgba(0, 0, 0, .5);
-    box-shadow: 0 0 2px 1px rgba(255, 255, 255, .7)
+    -webkit-box-shadow: 0 0 2px 1px rgba(255, 255, 255, .7);
+            box-shadow: 0 0 2px 1px rgba(255, 255, 255, .7)
 }
 
 .navbar-brand {
@@ -177,7 +183,8 @@ input[type=number] {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    -webkit-transform: translate(-50%, -80%);
+            transform: translate(-50%, -80%);
     line-height: 45px;
     font-size: 55px;
     text-transform: uppercase;
@@ -216,7 +223,8 @@ input[type=number] {
     position: relative;
     top: 50%;
     left: 25%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     padding: 0px 10px;
     border-radius: 4px;
 }
@@ -255,7 +263,8 @@ input[type=number] {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .arrowContainer__arrowTop,
@@ -269,23 +278,30 @@ input[type=number] {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     cursor: pointer;
+    -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
 
 }
 
 .arrowBottom__arrow {
-    transform: translate(-50%, -50%) rotateX(180deg);
+    -webkit-transform: translate(-50%, -50%) rotateX(180deg);
+            transform: translate(-50%, -50%) rotateX(180deg);
 }
 
 .arrowTop__arrow:hover {
-    transform: translate(-50%, -50%) rotateY(180deg);
+    -webkit-transform: translate(-50%, -50%) rotateY(180deg);
+            transform: translate(-50%, -50%) rotateY(180deg);
+    -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
 }
 
 .arrowBottom__arrow:hover {
-    transform: translate(-50%, -50%) rotateX(180deg) rotateY(180deg);
+    -webkit-transform: translate(-50%, -50%) rotateX(180deg) rotateY(180deg);
+            transform: translate(-50%, -50%) rotateX(180deg) rotateY(180deg);
+    -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
 }
 
@@ -348,8 +364,13 @@ input[type=number] {
 
 .quoteContainer__carousel {
     width: 300%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: row;
+    -webkit-box-pack: row;
+        -ms-flex-pack: row;
+            justify-content: row;
+    -webkit-transition: all ease-in-out .5s;
     transition: all ease-in-out .5s;
 }
 
@@ -363,11 +384,13 @@ input[type=number] {
     display: inline-block;
     margin: 5px;
     cursor: pointer;
+    -webkit-transition: ease-in all .3s;
     transition: ease-in all .3s;
 }
 
 .dotsContainer__dot:hover {
     background-color: rgba(255, 255, 255, 1);
+    -webkit-transition: ease-in all .3s;
     transition: ease-in all .3s;
 
 }
@@ -437,7 +460,8 @@ input[type=number] {
     position: relative;
     top: 50%;
     left: 67%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     padding: 8px 12px;
     letter-spacing: -1px;
 }
@@ -497,7 +521,8 @@ input[type=number] {
     position: absolute;
     top: 50%;
     left: 10px;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     height: 20px;
     width: 20px;
     background-color: #eee;
@@ -536,13 +561,13 @@ input[type=number] {
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
 .contact__btnSubbmit {
     position: relative;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     left: 50%;
     top: 65px;
     padding: 6px 20px;
@@ -618,7 +643,8 @@ footer {
 
     .quoteCount {
         margin: unset;
-        transform: scale(.7);
+        -webkit-transform: scale(.7);
+                transform: scale(.7);
         right: -25px;
     }
 
@@ -628,7 +654,8 @@ footer {
 
 
     .mission__arrowContainer {
-        transform: scale(.7);
+        -webkit-transform: scale(.7);
+                transform: scale(.7);
     }
 
 
@@ -640,7 +667,8 @@ footer {
     .cookies__btn {
         top: 8px;
         left: 90%;
-        transform: translate(-100%, 0%);
+        -webkit-transform: translate(-100%, 0%);
+                transform: translate(-100%, 0%);
     }
 
 }
@@ -666,7 +694,8 @@ footer {
 
     .mission__arrowContainer {
         padding: 20px;
-        transform: scale(.7);
+        -webkit-transform: scale(.7);
+                transform: scale(.7);
     }
 
     .clients {
@@ -683,7 +712,8 @@ footer {
         width: unset;
         top: 60px;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
     }
 
     .products {
@@ -708,4 +738,3 @@ footer {
         left: 50%;
     }
 }
-

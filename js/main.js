@@ -91,14 +91,16 @@ const scrollWithArrows = () => {
     const mainPage = $('.mainPage');
     const clientsSection = $('.clients');
 
-    arrowUp.click(function(){
+    arrowUp.click(function () {
         $('html,body').animate({
-            scrollTop: mainPage.offset().top},
-        'slow');
+                scrollTop: mainPage.offset().top
+            },
+            'slow');
     });
-    arrowDown.click(function(){
+    arrowDown.click(function () {
         $('html,body').animate({
-            scrollTop: clientsSection.offset().top},
-        'slow');
+                scrollTop: clientsSection.offset().top
+            },
+            'slow');
     });
 }
