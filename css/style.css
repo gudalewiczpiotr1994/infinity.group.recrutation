@@ -645,7 +645,7 @@ footer {
         margin: unset;
         -webkit-transform: scale(.7);
                 transform: scale(.7);
-        right: -25px;
+        right: -15px;
     }
 
     .product__image {
@@ -669,6 +669,11 @@ footer {
         left: 90%;
         -webkit-transform: translate(-100%, 0%);
                 transform: translate(-100%, 0%);
+    }
+
+    
+    .contact__btnContact {
+        left: 50%;
     }
 
 }
@@ -734,7 +739,4 @@ footer {
         padding: 105px 0;
     }
 
-    .contact__btnContact {
-        left: 50%;
-    }
 }
